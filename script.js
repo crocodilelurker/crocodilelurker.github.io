@@ -27,37 +27,37 @@ const portfolioData = {
                  "<div class='skills-flex'>" +
                  
                  "<div class='skill-category'>" +
-                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='currentColor' stroke-width='2'><path d='M20 14h-4v4h4v-4zm-6 0h-4v4h4v-4zm-6 0H4v4h4v-4zm12-6h-4v4h4V8zm-6 0h-4v4h4V8zm-6 0H4v4h4V8zm12-6h-4v4h4V2zm-6 0h-4v4h4V2zm-6 0H4v4h4V2z'/></svg> Languages</div>" +
+                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#facc15' stroke-width='2'><path d='M20 14h-4v4h4v-4zm-6 0h-4v4h4v-4zm-6 0H4v4h4v-4zm12-6h-4v4h4V8zm-6 0h-4v4h4V8zm-6 0H4v4h4V8zm12-6h-4v4h4V2zm-6 0h-4v4h4V2zm-6 0H4v4h4V2z'/></svg> Languages</div>" +
                  "<div><span class='tech-tag'>JavaScript</span><span class='tech-tag'>Python</span><span class='tech-tag'>C++</span><span class='tech-tag'>Java</span><span class='tech-tag'>Go</span></div>" +
                  "</div>" +
 
                  "<div class='skill-category'>" +
-                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='currentColor' stroke-width='2'><rect x='2' y='3' width='20' height='14' rx='2' ry='2'></rect><line x1='8' y1='21' x2='16' y2='21'></line></svg> Frameworks</div>" +
+                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#4ade80' stroke-width='2'><rect x='2' y='3' width='20' height='14' rx='2' ry='2'></rect><line x1='8' y1='21' x2='16' y2='21'></line></svg> Frameworks</div>" +
                  "<div><span class='tech-tag'>React</span><span class='tech-tag'>Next.js</span><span class='tech-tag'>Node.js</span><span class='tech-tag'>FastAPI</span><span class='tech-tag'>Express</span></div>" +
                  "</div>" +
 
                  "<div class='skill-category'>" +
-                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='currentColor' stroke-width='2'><path d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/></svg> Tools</div>" +
+                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#38bdf8' stroke-width='2'><path d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/></svg> Tools</div>" +
                  "<div><span class='tech-tag'>Docker</span><span class='tech-tag'>Git</span><span class='tech-tag'>Redis</span><span class='tech-tag'>Grafana</span></div>" +
                  "</div>" +
                  
                  "<div class='skill-category'>" +
-                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='currentColor' stroke-width='2'><circle cx='12' cy='12' r='10'></circle><path d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'></path></svg> ML/AI</div>" +
+                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#c084fc' stroke-width='2'><circle cx='12' cy='12' r='10'></circle><path d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'></path></svg> ML/AI</div>" +
                  "<div><span class='tech-tag'>PyTorch</span><span class='tech-tag'>OpenCV</span><span class='tech-tag'>scikit-learn</span><span class='tech-tag'>LangChain</span></div>" +
                  "</div>" +
                  
                  "<div class='skill-category'>" +
-                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='currentColor' stroke-width='2'><path d='M17.5 19C19 17.5 20 15.5 20 13c0-4.42-3.58-8-8-8s-8 3.58-8 8 1 4.5 2.5 6'></path><path d='M12 9v4l3 3'></path></svg> Cloud Architecture</div>" +
+                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#fb923c' stroke-width='2'><path d='M17.5 19C19 17.5 20 15.5 20 13c0-4.42-3.58-8-8-8s-8 3.58-8 8 1 4.5 2.5 6'></path><path d='M12 9v4l3 3'></path></svg> Cloud Architecture</div>" +
                  "<div><span class='tech-tag'>AWS (ECS, ECR, Fargate, EC2)</span><span class='tech-tag'>Google Cloud Platform (GCP)</span></div>" +
                  "</div>" +
                  
                  "<div class='skill-category'>" +
-                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='currentColor' stroke-width='2'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'></path><circle cx='9' cy='7' r='4'></circle><path d='M23 21v-2a4 4 0 0 0-3-3.87'></path><path d='M16 3.13a4 4 0 0 1 0 7.75'></path></svg> Soft Skills</div>" +
+                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#f87171' stroke-width='2'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'></path><circle cx='9' cy='7' r='4'></circle><path d='M23 21v-2a4 4 0 0 0-3-3.87'></path><path d='M16 3.13a4 4 0 0 1 0 7.75'></path></svg> Soft Skills</div>" +
                  "<div><span class='tech-tag'>Communication</span><span class='tech-tag'>Teamwork</span></div>" +
                  "</div>" +
 
                  "<div class='skill-category' style='flex-basis: 100%'>" +
-                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='currentColor' stroke-width='2'><polygon points='12 2 2 7 12 12 22 7 12 2'></polygon><polyline points='2 17 12 22 22 17'></polyline><polyline points='2 12 12 17 22 12'></polyline></svg> Areas of Interest</div>" +
+                 "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#10b981' stroke-width='2'><polygon points='12 2 2 7 12 12 22 7 12 2'></polygon><polyline points='2 17 12 22 22 17'></polyline><polyline points='2 12 12 17 22 12'></polyline></svg> Areas of Interest</div>" +
                  "<div><span class='tech-tag'>Distributed Systems</span><span class='tech-tag'>AI</span><span class='tech-tag'>Image Processing</span><span class='tech-tag'>System Design</span><span class='tech-tag'>Data Structures and Algorithms</span><span class='tech-tag'>Robotics</span><span class='tech-tag'>IoT</span></div>" +
                  "</div>" +
 
@@ -66,7 +66,7 @@ const portfolioData = {
     "projects.ts": {
         content: "<h2>Featured Projects</h2>" +
                  "<div class='card'>" +
-                 "<div class='card-title'>Live Code Editor <span class='card-date'>03/2026</span></div>" +
+                 "<div class='card-title'><div style='display: flex; align-items: center; gap: 10px;'><svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='#38bdf8' stroke-width='2'><polyline points='16 18 22 12 16 6'></polyline><polyline points='8 6 2 12 8 18'></polyline></svg> Live Code Editor</div> <span class='card-date'>03/2026</span></div>" +
                  "<div class='card-subtitle'>Real-time collaborative code editor enabling multi-user editing</div>" +
                  "<a class='btn-link' href='http://new-alb-docker-1800000494.ap-south-1.elb.amazonaws.com/' target='_blank'>Live Preview ↗</a>" +
                  "<p>Containerized and deployed on AWS. Built a real-time collaborative editor using <b>React</b> and <b>Yjs</b> with concurrent multi-user editing. Deployed scalable containerized backend using AWS ECS, Fargate, ECR and EC2 with custom VPC and load balancer. Implemented WebSocket-based low-latency synchronization.</p>" +
@@ -74,7 +74,7 @@ const portfolioData = {
                  "</div>" +
                  
                  "<div class='card'>" +
-                 "<div class='card-title'>Anonymous Real-Time Chat Platform <span class='card-date'>11/2025</span></div>" +
+                 "<div class='card-title'><div style='display: flex; align-items: center; gap: 10px;'><svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='#4ade80' stroke-width='2'><path d='M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'></path></svg> Anonymous Real-Time Chat Platform</div> <span class='card-date'>11/2025</span></div>" +
                  "<div class='card-subtitle'>Anonymous chat system with real-time communication</div>" +
                  "<a class='btn-link' href='https://rec-red.vercel.app/' target='_blank'>Live Preview ↗</a>" +
                  "<p>Developed a real-time chat platform using <b>Next.js</b> based on WebSockets, supporting concurrent users. Integrated <b>Redis</b> for session management and real-time message broadcasting. Designed scalable low-latency backend ensuring consistent performance under load.</p>" +
@@ -82,7 +82,7 @@ const portfolioData = {
                  "</div>" +
 
                  "<div class='card'>" +
-                 "<div class='card-title'>Interactive Machine Learning Platform <span class='card-date'>10/2024</span></div>" +
+                 "<div class='card-title'><div style='display: flex; align-items: center; gap: 10px;'><svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='#c084fc' stroke-width='2'><circle cx='12' cy='12' r='10'></circle><path d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'></path></svg> Interactive Machine Learning Platform</div> <span class='card-date'>10/2024</span></div>" +
                  "<div class='card-subtitle'>Hands-on ML platform for non-technical users</div>" +
                  "<a class='btn-link' href='https://dcpchitrole.github.io/babymachinev1/' target='_blank'>Live Preview ↗</a>" +
                  "<p>Developed a browser-based ML platform using <b>TensorFlow.js</b> for real-time training and prediction. Built custom neural networks with client-side image processing. Created an intuitive interface to improve accessibility of AI concepts.</p>" +
@@ -92,13 +92,23 @@ const portfolioData = {
     "education.js": {
         content: "<h2>Education Timeline</h2>" +
                  "<div class='card'>" +
-                 "<div class='card-title'>Indian Institute of Information Technology, Bhagalpur <span class='card-date'>Grad. 2028</span></div>" +
+                 "<div class='card-title'>" +
+                 "<div style='display: flex; align-items: center; gap: 12px;'>" +
+                 "<img src='college_logo.png' alt='IIIT Bhagalpur' style='width: 32px; height: 32px; object-fit: contain; background: white; padding: 2px; border-radius: 4px;'>" +
+                 "<span>Indian Institute of Information Technology, Bhagalpur</span>" +
+                 "</div>" +
+                 "<span class='card-date'>Grad. 2028</span></div>" +
                  "<div class='card-subtitle'>Bachelor of Technology, Mechatronics and Automation Engineering</div>" +
                  "<p>CGPA: 8.0</p>" +
                  "<p><b>Positions of Responsibility:</b> Student Coordinator, Training and Placement Cell (2025-Present) - Onboarded 10+ companies for placement drives.</p>" +
                  "</div>" +
                  "<div class='card'>" +
-                 "<div class='card-title'>Indian Institute of Technology, Ropar <span class='card-date'>Grad. 2025</span></div>" +
+                 "<div class='card-title'>" +
+                 "<div style='display: flex; align-items: center; gap: 12px;'>" +
+                 "<img src='iit_ropar.png' alt='IIT Ropar' style='width: 32px; height: 32px; object-fit: contain; background: white; padding: 2px; border-radius: 4px;'>" +
+                 "<span>Indian Institute of Technology, Ropar</span>" +
+                 "</div>" +
+                 "<span class='card-date'>Grad. 2025</span></div>" +
                  "<div class='card-subtitle'>Minor in Artificial Intelligence and Machine Learning</div>" +
                  "<p>CGPA: 8.0</p>" +
                  "</div>" +
@@ -593,6 +603,18 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('mobile-toggle').addEventListener('click', () => {
         document.getElementById('sidebar').classList.toggle('open');
     });
+
+    const explorerLabel = document.querySelector('.sidebar-header span');
+    if (explorerLabel) {
+        explorerLabel.style.cursor = 'pointer';
+        explorerLabel.addEventListener('click', () => openFile('readme.md'));
+    }
+    const folderTitle = document.querySelector('.folder-title');
+    if (folderTitle) {
+        folderTitle.style.cursor = 'pointer';
+        folderTitle.addEventListener('click', () => openFile('readme.md'));
+    }
+
     // Completely scramble puzzle nodes on initialization so it's ready.
     scatterNodes();
 });
