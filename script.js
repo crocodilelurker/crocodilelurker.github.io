@@ -6,7 +6,7 @@ const portfolioData = {
                  "<div>" +
                  "<h1>Hey, I'm <span class='highlight'>Swagat Sahu</span></h1>" +
                  "<p>Backend-focused developer experienced in building scalable real-time and distributed systems using AWS, Docker, and WebSockets. Skilled in designing low-latency, stateless backend architectures and REST APIs for cloud-native applications.</p>" +
-                 "<p>I am deeply interested in system design, Artificial Intelligence, and high-performance computing systems.</p>" +
+                 "<p>Currently pursuing a B.Tech in Mechatronics and Automation at <b>IIIT Bhagalpur</b> and a Minor in AI & ML at <b>IIT Ropar</b>. I have built diverse full-stack solutions, ranging from scalable code editors to real-time chat platforms, striving to master high-performance computing systems.</p>" +
                  "<h2>Contact & Links</h2>" +
                  "<ul>" +
                  "<li>Email: <a href='mailto:swagatsahu556@gmail.com' class='highlight'>swagatsahu556@gmail.com</a></li>" +
@@ -16,9 +16,9 @@ const portfolioData = {
                  "</ul>" +
                  "<h2>Achievements</h2>" +
                  "<ul>" +
+                 "<li><span class='highlight'>Bit By Bit Hackathon</span>, 2nd Place (2026)</li>" +
                  "<li><span class='highlight'>Reliance Undergraduate Scholarship</span>, Reliance Group (2025)</li>" +
                  "<li><span class='highlight'>Qualified for Smart India Hackathon</span> (National Level)</li>" +
-                 "<li>Postman API Fundamentals Student Expert (06/2025)</li>" +
                  "</ul>" +
                  "</div></div>"
     },
@@ -609,11 +609,29 @@ document.addEventListener('DOMContentLoaded', () => {
         explorerLabel.style.cursor = 'pointer';
         explorerLabel.addEventListener('click', () => openFile('readme.md'));
     }
-    const folderTitle = document.querySelector('.folder-title');
-    if (folderTitle) {
-        folderTitle.style.cursor = 'pointer';
-        folderTitle.addEventListener('click', () => openFile('readme.md'));
-    }
+    const folderTitles = document.querySelectorAll('.folder-title');
+    folderTitles.forEach(title => {
+        title.style.cursor = 'pointer';
+        title.addEventListener('click', () => {
+            const content = title.nextElementSibling;
+            if (content && content.classList.contains('folder-content')) {
+                const isOpen = content.style.maxHeight !== '0px';
+                if (isOpen) {
+                    content.style.maxHeight = '0px';
+                    content.style.opacity = '0';
+                    content.style.marginTop = '0px';
+                    const svg = title.querySelector('svg');
+                    if (svg) svg.style.transform = 'rotate(-90deg)';
+                } else {
+                    content.style.maxHeight = '500px';
+                    content.style.opacity = '1';
+                    content.style.marginTop = '5px';
+                    const svg = title.querySelector('svg');
+                    if (svg) svg.style.transform = 'rotate(0deg)';
+                }
+            }
+        });
+    });
 
     // Completely scramble puzzle nodes on initialization so it's ready.
     scatterNodes();
