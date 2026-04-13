@@ -6,7 +6,7 @@ const portfolioData = {
                  "<div>" +
                  "<h1>Hey, I'm <span class='highlight'>Swagat Sahu</span></h1>" +
                  "<p>Backend-focused developer experienced in building scalable real-time and distributed systems using AWS, Docker, and WebSockets. Skilled in designing low-latency, stateless backend architectures and REST APIs for cloud-native applications.</p>" +
-                 "<p>Currently pursuing a B.Tech in Mechatronics and Automation at <b>IIIT Bhagalpur</b> and a Minor in AI & ML at <b>IIT Ropar</b>. I have built diverse full-stack solutions, ranging from scalable code editors to real-time chat platforms, striving to master high-performance computing systems.</p>" +
+                 "<p>Currently pursuing a B.Tech in Mechatronics and Automation at <b>IIIT Bhagalpur</b> and a Minor in AI & ML at <b>IIT Ropar</b>. I have built diverse solutions, ranging from <b>custom 11.2M parameter SLMs</b> and scalable code editors to real-time chat platforms, striving to master high-performance computing systems.</p>" +
                  "<h2>Contact & Links</h2>" +
                  "<ul>" +
                  "<li>Email: <a href='mailto:swagatsahu556@gmail.com' class='highlight'>swagatsahu556@gmail.com</a></li>" +
@@ -43,7 +43,7 @@ const portfolioData = {
                  
                  "<div class='skill-category'>" +
                  "<div class='skill-cat-title'><svg viewBox='0 0 24 24' width='20' height='20' fill='none' stroke='#c084fc' stroke-width='2'><circle cx='12' cy='12' r='10'></circle><path d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'></path></svg> ML/AI</div>" +
-                 "<div><span class='tech-tag'>PyTorch</span><span class='tech-tag'>OpenCV</span><span class='tech-tag'>scikit-learn</span><span class='tech-tag'>LangChain</span></div>" +
+                 "<div><span class='tech-tag'>PyTorch</span><span class='tech-tag'>Transformers</span><span class='tech-tag'>OpenCV</span><span class='tech-tag'>scikit-learn</span><span class='tech-tag'>LangChain</span></div>" +
                  "</div>" +
                  
                  "<div class='skill-category'>" +
@@ -65,6 +65,17 @@ const portfolioData = {
     },
     "projects.ts": {
         content: "<h2>Featured Projects</h2>" +
+                 "<div class='card'>" +
+                 "<div class='card-title'><div style='display: flex; align-items: center; gap: 10px;'><svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='#c084fc' stroke-width='2'><path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'></path><polyline points='3.27 6.96 12 12.01 20.73 6.96'></polyline><line x1='12' y1='22.08' x2='12' y2='12'></line></svg> Text-to-SQL Transformer – Custom 11.2M Parameter SLM</div> <span class='card-date'>04/2026</span></div>" +
+                 "<div class='card-subtitle'>Custom-built Sequence-to-Sequence model for Natural Language to SQL translation</div>" +
+                 "<div style='display: flex; gap: 10px;'>" +
+                 "<a class='btn-link' href='https://sqltranslate.streamlit.app/' target='_blank'>Live Demo ↗</a>" +
+                 "<a class='btn-link' href='https://github.com/crocodilelurker/sql_transformer' target='_blank'>GitHub ↗</a>" +
+                 "</div>" +
+                 "<p>Developed a <b>11.2M parameter Encoder-Decoder Transformer</b> from scratch using <b>PyTorch</b> with a 4-layer depth. Implemented <b>8-head Multi-Head Attention</b> (dmodel = 256) and a custom <b>BPE tokenizer</b> for 5k vocabulary mapping. Optimized local <b>CUDA training</b> on 30k pairs using <b>Teacher Forcing</b> and causal masking to achieve 1.39 loss.</p>" +
+                 "<div><span class='tech-tag'>PyTorch</span><span class='tech-tag'>Transformers</span><span class='tech-tag'>NLP</span><span class='tech-tag'>CUDA</span><span class='tech-tag'>Streamlit</span></div>" +
+                 "</div>" +
+                 
                  "<div class='card'>" +
                  "<div class='card-title'><div style='display: flex; align-items: center; gap: 10px;'><svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='#38bdf8' stroke-width='2'><polyline points='16 18 22 12 16 6'></polyline><polyline points='8 6 2 12 8 18'></polyline></svg> Live Code Editor</div> <span class='card-date'>03/2026</span></div>" +
                  "<div class='card-subtitle'>Real-time collaborative code editor enabling multi-user editing</div>" +
